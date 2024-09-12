@@ -1,0 +1,51 @@
+.header {
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:white;
+}
+
+.humburger-menu{
+    width:1px;
+    margin-left:20px;
+    margin-right:25px;
+}
+
+.youtube-logo{
+    width:70px;
+}
+
+.left-section{
+    display:flex;
+    align-items:center;
+    
+}
+
+.sreach-button{
+    height:40px;
+    width:40px;
+}
+
+.voice-sreach-button{
+    height:40px;
+    width:40px;
+}
+
+.middle-section{
+    max-width:600px;
+    flex: 1 ;
+    background-color:forestgreen;
+    margin-left:70px;
+    margin-right:35px;
+}
+
+.right-section{
+    width:200px;
+    background-color:blueviolet;
+}
